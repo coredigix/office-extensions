@@ -1,0 +1,16 @@
+{
+"writer":{
+	"?": ["odt", "ott", "oth", "odm"]},
+
+"calc":{
+	"?": ["ods", "ots", "", "", ""]},
+
+"impress":{
+	"?": ["odp", "odg", "otp"]},
+
+"draw":{
+	"?": ["odg", "otg"]},
+
+"math":{
+	"?": ["odf"]}
+}

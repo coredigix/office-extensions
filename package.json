@@ -1,0 +1,28 @@
+{
+  "name": "office-extensions",
+  "version": "0.0.1",
+  "description": "work with office filaname extensions. check if a file is of type office",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coredigix/office-extensions.git"
+  },
+  "keywords": [
+    "office",
+    "filename",
+    "extension",
+    "ms-office",
+    "open-office",
+    "libre-office",
+    "libreoffice"
+  ],
+  "author": "coredigix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coredigix/office-extensions/issues"
+  },
+  "homepage": "https://github.com/coredigix/office-extensions#readme"
+}

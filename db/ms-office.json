@@ -1,0 +1,33 @@
+{
+"word": {
+	"2003": ["doc", "dot"],
+	"2007": ["docx", "dotx", "docm", "dotm"]},
+
+"excel": {
+	"2003": ["xls", "xlt", "xlsb", "xla"],
+	"2007": ["xlsx", "xltx", "xlsb", "xlam", "xlsm", "xltm"]},
+
+"powerpoint": {
+	"2003": ["ppt", "pps", "pot", "ppa"],
+	"2007": ["pptx", "ppsx", "potx", "ppam", "pptm", "ppsm"]},
+
+"publisher": {
+	"2003": ["pub"],
+	"2007": ["pub"]},	
+
+"access": {
+	"2003": ["mdb", "adp"],
+	"2007": ["accdb", "accde", "accdp", "accdr"]},
+
+"onenote": {
+	"2003": ["one"],
+	"2007": ["one", "onepkg"]},
+		
+"visio": {
+	"2003": ["vsd", "vst"],
+	"2007": ["vsd", "vst"]},
+
+"project": {
+	"2003": ["mpp", "mpt"],
+	"2007": ["mmp", "mpt"]}
+}

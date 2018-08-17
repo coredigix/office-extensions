@@ -1,2 +1,5 @@
 # office-extensions
-set of office filename extensions
+Check if a file is of type office
+```javascript
+
+```
