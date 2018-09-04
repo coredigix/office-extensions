@@ -7,14 +7,17 @@ const DB= {
 };
 
 // prepare a set of all extensions
-var extSet = []
+var extSet = new Set()
 for(k in DB){
 	v = DB[k]
 	for(k2 in v){
-		tb = v[k2]
-		for(var i=0, len = tb.length; i < len; ++i)
-			if(extSet.indexOf(tb[i]) === -1)
-				extSet.push(tb[i])
+		v2 = v[k2]
+		for(k3 in v2){
+			tb = v2[k3]
+			for(var i=0, len = tb.length; i < len; ++i)
+				if(tb[i])
+					extSet.add(tb[i])
+		}
 	}
 }
 
@@ -23,6 +26,6 @@ for(k in DB){
  * @param {string} path file path
  */
 module.exports.isOffice = function(path){
-	ext = pathLib.extname(path).toLowerCase();
-	return extSet.indexOf(ext) >= 0
+	ext = pathLib.extname(path).substr(1).toLowerCase();
+	return extSet.has(ext);
 };
