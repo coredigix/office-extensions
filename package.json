@@ -1,6 +1,6 @@
 {
   "name": "office-extensions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "work with office filaname extensions. check if a file is of type office",
   "main": "index.js",
   "scripts": {
